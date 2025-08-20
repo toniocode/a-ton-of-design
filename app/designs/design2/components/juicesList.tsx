@@ -31,7 +31,16 @@ export default function JuicesList() {
             imageName: require('@/assets/images/grapes-juice.png'),
             bgColor: '#EAD1EC',
             price: 11.27
-        }
+        },
+        {
+            id: '4',
+            name: 'Mango Juice',
+            shortDescription: 'Freshly pressed apple juice, crisp and naturally sweet.',
+            largeDescription: 'Made from ripe, hand-picked apples, this juice delivers a refreshing balance of sweetness and tartness. Perfect for a healthy start to your day or a naturally energizing snack.',
+            imageName: require('@/assets/images/mango-juice.png'),
+            bgColor: '#E89297',
+            price: 12.65
+        },
     ];
 
     return (
