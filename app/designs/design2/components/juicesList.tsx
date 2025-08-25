@@ -60,8 +60,6 @@ export default function JuicesList() {
                     }
 
                     return (
-                        // 
-
                         <View key={index} style={styles.juiceContainer}>
                             <View style={styles.juiceContent}>
                                 <Text style={styles.juiceName}>{juice.name}</Text>
@@ -74,12 +72,12 @@ export default function JuicesList() {
                                         </Pressable>
                                         <Text style={{ color: '#fff' }}>{quantity}</Text>
                                         <Pressable onPress={addQuantity} >
-                                            <MaterialIcons name='add' size={25} color={'#fff'}/>
+                                            <MaterialIcons name='add' size={25} color={'#fff'} />
                                         </Pressable>
                                     </View>
                                 </View>
                             </View>
-                            <View style={[styles.juiceImageContainer, { backgroundColor: juice.bgColor}]}>
+                            <View style={[styles.juiceImageContainer, { backgroundColor: juice.bgColor }]}>
                                 <Link href={`/designs/design2/juice/${juice.id}`}>
                                     <Image source={juice.imageName} style={styles.juiceImg} />
                                 </Link>
@@ -109,7 +107,7 @@ const styles = StyleSheet.create({
         gap: 10
     },
     juiceName: {
-        fontSize: 24,
+        fontSize: 25,
         fontWeight: 'bold'
     },
     juiceShortDescription: {
@@ -138,6 +136,6 @@ const styles = StyleSheet.create({
     },
     juiceImg: {
         width: 100,
-        height: 100,
+        height: 100
     }
 })
