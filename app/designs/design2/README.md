@@ -1,1 +1,1 @@
-![Diseño](/assets/images/designs/design2.jpg)
+![Diseño](/assets/images/designs/design2.png)
