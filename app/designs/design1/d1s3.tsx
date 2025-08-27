@@ -24,7 +24,7 @@ export default function D1S3() {
                     </View>
                     <View>
                         <Image
-                            source={require('@/assets/images/profile2.png')}
+                            source={require('@/assets/images/profiles/profile2.png')}
                             style={{
                                 width: 60,
                                 height: 60,

@@ -1,7 +1,7 @@
-import D2S1 from "./designs/design2/d2s1";
+import D3 from "./designs/design3/d3";
 
 export default function Index() {
   return (
-    <D2S1 />
+    <D3 />
   );
 }
